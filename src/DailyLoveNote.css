@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  background: #fff0f5; /* soft pink */
+  font-family: 'Poppins', sans-serif;
+  color: #4a4a4a;
+}
+
+.love-note-container {
+  max-width: 480px;
+  margin: 3rem auto;
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(214, 51, 132, 0.25);
+  text-align: center;
+}
+
+.love-note-container h1 {
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-bottom: 0.25rem;
+  color: #d63384;
+}
+
+.love-note-container p.date {
+  color: #a868a0;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.love-note-image {
+  width: 260px;
+  height: 260px;
+  border-radius: 25px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(214, 51, 132, 0.25);
+  margin-bottom: 1.5rem;
+}
+
+.love-note-message {
+  font-size: 1.35rem;
+  color: #d63384;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.spotify-song {
+  margin-bottom: 2rem;
+}
+
+.spotify-song h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #4a4a4a;
+}
+
+.spotify-song a {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #1DB954; /* Spotify green */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.spotify-song a:hover {
+  color: #14943b;
+  text-decoration: underline;
+}
+
+.countdown {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #6e2a54;
+}

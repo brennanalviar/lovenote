@@ -1,8 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import DailyLoveNote from './DailyLoveNote';
 
 function App() {
-  return <DailyLoveNote />;
+  return (
+    <div className="App">
+      <DailyLoveNote />
+    </div>
+  );
 }
 
 export default App;
